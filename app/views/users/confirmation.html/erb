@@ -1,0 +1,10 @@
+<h4> welcome pelase register</h4>
+<%= form_for :user, url: '/users/confirmation' do |f| %>
+
+Name: <% f.text_field :name %>
+Name: <% f.text_field :name %>
+Name: <% f.text_field :name %>
+Confirmation: <% f.password_field :password_confirmation %>
+
+<%= f.submit %>
+<% end %>
